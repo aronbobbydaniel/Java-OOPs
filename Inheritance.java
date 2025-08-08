@@ -56,11 +56,12 @@ public class Inheritance {
 	public static void main(String[] args) {
 		book book1=new book("Harry","Pace",78.00);
 		book1.displaydetails();
-		Ebook book2=new Ebook("jjj","eff",56.0,67.0);
+		Ebook book2=new Ebook("Mowgli","Pace2",56.0,67.0);
 		book2.displaydetails();
-		PrintedBook book3=new PrintedBook("ffr","rttr",78.0,45);
+		PrintedBook book3=new PrintedBook("GOT","Pace3",78.0,45);
 		book3.displaydetails();
 
 	}
 
 }
+
